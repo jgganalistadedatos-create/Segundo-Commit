@@ -1,0 +1,200 @@
+0:1212 segundosHola, buenas. Eh, vamos a ver la práctica asociada al capítulo 5 de la
+0:2020 segundosguía de restars, ¿no? Lo primero que vamos a hacer es establecer un proyecto
+0:2727 segundosen R y en la carpeta de proyecto vamos a poner todos los materiales que nos van a hacer falta. Nos vamos al explorador,
+0:3737 segundosentramos en el libro de la guía.
+0:4444 segundosY nos vamos al capítulo 5co, cuya práctica es la que vamos a a desarrollar. Análisis previo de datos.
+0:5353 segundosSi nos vamos al apartado último, materiales para realizar las prácticas del capítulo, pues tendremos ahí los
+1:011 minuto y 1 segundoarchivos que nos van a hacer falta. una hoja de cálculo con los datos con los que vamos a trabajar, que se llama interestelar 100, eh, y luego dos
+1:101 minuto y 10 segundosscripts. En realidad, en esta práctica, en esta sesión, solo vamos a utilizar uno, pero vamos a bajarnos los dos. Uno es previoars.
+1:191 minuto y 19 segundosY otro es eh previo puro rstars.
+1:231 minuto y 23 segundosBien, ¿dónde los vamos a bajar? pues en la carpeta de nuestro proyecto. Por lo tanto, primero tenemos que crear un
+1:311 minuto y 31 segundosproyecto en R. Eh, dejamos esto preparado, la página aquí en el navegador y activamos R.
+1:401 minuto y 40 segundosBueno, activamos, ya sabéis, R Studio, ¿de acuerdo? Eh, con el que interactuamos con R. Eh, vamos a crear
+1:481 minuto y 48 segundosnuestro proyecto. Entonces, ya sabéis que podemos darle a file new project.
+1:581 minuto y 58 segundosEh, depende ahora para crear nuestro proyecto si existe la carpeta donde queremos darle eh la condición de
+2:072 minutos y 7 segundosproyecto o si creamos queremos crear una carpeta nueva. Yo creo que tengo ya una creada, ¿de acuerdo? Entonces, voy a poner eh directorio existente.
+2:192 minutos y 19 segundosLo busco.
+2:222 minutos y 22 segundosY podéis poner en cualquier carpeta de vuestra máquina que queráis esa condición de proyecto de R. Yo me voy a
+2:312 minutos y 31 segundosir a al disco D, un USB
+2:382 minutos y 38 segundoseh, que está dentro de curso 26 27 temas.
+2:442 minutos y 44 segundosR y ahí tengo varias carpetas, es la carpeta explora. Entonces le doy a open
+2:512 minutos y 51 segundosy le doy a crear proyecto. Entonces se está creando ahora un proyecto eh que toma el nombre de la carpeta a la que le
+3:003 minutoshemos asignado esa condición de proyecto, ¿vale? Entonces será el proyecto se llamará explora porque la carpeta se llama explora.
+3:093 minutos y 9 segundosYa sabéis que los proyectos los que lo que hacen al final es decirle a a
+3:163 minutos y 16 segundosR dónde tiene que buscar los materiales que va a necesitar para desarrollar su
+3:243 minutos y 24 segundostrabajo, en qué carpeta, tanto las entradas, los inputs como los outputs, si produce alguno. Todos van a ir a esa
+3:313 minutos y 31 segundoscarpeta de proyecto que es la carpeta explora. Bien, si nos vamos aquí al
+3:393 minutos y 39 segundosexplorador de Windows, puedo eh irme a mi disco extraíble, el disco D.
+3:463 minutos y 46 segundosY si veo, si vamos a la carpeta explora 26 27, ¿vale? Tá,
+3:563 minutos y 56 segundos¿la veis? Explora. Si entro dentro de ella, pues fijaos que todavía no tengo nada, salvo una especie de carpeta
+4:064 minutos y 6 segundosoculta y un archivito explora RPR, que lo que está diciendo es que esta carpeta,
+4:144 minutos y 14 segundosademás de ser una carpeta normal del sistema de Windows, es un proyecto de R.
+4:214 minutos y 21 segundosSi en R abrimos el proyecto, mirará aquí. Para R solo va a existir esta carpeta, eh, tanto para tomar inputs,
+4:294 minutos y 29 segundoscomo os decía, como para dejar ahí los outputs que genere en esta carpeta. Por lo tanto, tenemos que poner los inputs
+4:364 minutos y 36 segundosde nuestro proyecto, que ya os he dicho antes lo que era. Son dos archivos scripts.
+4:424 minutos y 42 segundosY un archivo de Excel que tiene los datos. Ahora sí, volvemos
+4:494 minutos y 49 segundosa nuestro libro. de la guía, capítulo 5 al último apartado y vamos a pulsar en el XLSX con los datos.
+5:025 minutos y 2 segundosGuardamos el archivo y le decimos que lo guarde pues en
+5:095 minutos y 9 segundosnuestra carpeta de proyecto que era aquí. Explora.
+5:185 minutos y 18 segundosBien. Y ahora los dos scripts, el previo RS Stars y el previo puro RS Stars. Eh,
+5:265 minutos y 26 segundospone obtener aquí. Yo le voy a dar con el botón derecho,
+5:335 minutos y 33 segundosguardar enlace y lo guardo en mi carpeta explora, mi carpeta de proyecto. Ahí lo
+5:395 minutos y 39 segundostengo. Y ahora el otro. ¿Por qué no le doy con el botón izquierdo del ratón?
+5:465 minutos y 46 segundosporque entonces se me abre y yo lo que no quiero es que se abra, sino que se guarde. Fijaos, le voy a dar, veis, y
+5:535 minutos y 53 segundossale el script en en mi navegador en concreto. Eh, no tiene por qué pasaros a vosotros. Entonces, yo en mi navegador,
+6:016 minutos y 1 segundopara que no me pase eso, le doy al botón derecho y guardar enlace com, ¿vale?
+6:096 minutos y 9 segundosy ya lo puedo guardar el archivo.
+6:136 minutos y 13 segundosBien, si vamos ahora a nuestra carpeta de proyecto, eh, vamos a actualizar, ahí lo tenemos,
+6:206 minutos y 20 segundoslos tres archivos que nos van a hacer falta.
+6:256 minutos y 25 segundosY si eh entramos en R, estamos dentro de nuestro proyecto. Ahí
+6:336 minutos y 33 segundoslo vemos. Explora. Le voy a dar a actualizar que tarda un poquito. Y veis que están pues los tres archivos, o sea,
+6:426 minutos y 42 segundosR está mirando a la carpeta asociada al proyecto que tenemos abierto. Esta
+6:496 minutos y 49 segundossesión se llama eh o está asociada a análisis previo de datos, ¿no? ¿De qué va en concreto la sesión? En esta sesión
+6:586 minutos y 58 segundosno vamos a aplicar una técnica multivariante. Lo que vamos a hacer, vamos a discutir es lo que se hace antes, que es preparar los datos y
+7:087 minutos y 8 segundosmirarlos un poquito para tener una primera impresión de qué información contienen. Es una fase que mucha gente
+7:157 minutos y 15 segundospasa de largo, pero es crucial. ¿Por qué? Porque fijaos, un modelo estimado
+7:227 minutos y 22 segundossobre datos sin depurar no es un modelo mal calculado, está bien calculado, pero sobre una muestra equivocada. Y y además
+7:317 minutos y 31 segundoseh tenemos que tener antes de meternos en harina con una técnica tener una
+7:387 minutos y 38 segundospercepción general de con qué datos estamos trabajando y si están correctamente preparados,
+7:467 minutos y 46 segundos¿no? En la práctica, ¿qué es lo que vamos a tratar? Bueno, pues aquí tenemos, me voy un momentito al libro,
+7:547 minutos y 54 segundosal capítulo 5 y me voy a los primeros apartados, ¿no?
+8:018 minutos y 1 segundoEh, aquí habréis leído lo que os decía, qué es lo que buscamos, preparar nuestros datos para poder aplicar una
+8:088 minutos y 8 segundostécnica y obtener una visión inicial de la información que esconden esos datos.
+8:138 minutos y 13 segundosY si es de un modo visual, pues mejor, ¿no? Y la práctica gira o alrededor de
+8:218 minutos y 21 segundosun de un caso. Y es que ya sabéis que trabajamos con ejemplos extraídos del
+8:278 minutos y 27 segundosuniverso ficticio RS Stars. Entonces, hay una una institución que es la
+8:348 minutos y 34 segundosautoridad reguladora del transporte interestelar, la Arti, que tiene una directora que se llama
+8:408 minutos y 40 segundosMara Cuyá y quiere un informe previo eh sobre el sector del transporte
+8:478 minutos y 47 segundosinterestal, ¿no? Y entonces ella plantea dos preguntas.
+8:528 minutos y 52 segundosPrimera pregunta, ¿la rentabilidad es homogénea?
+8:568 minutos y 56 segundosEsto nos lleva a tener que estudiar previamente la la variable Reneco,
+9:039 minutos y 3 segundosestudiarla, pero antes prepararla porque tal vez los datos de esa variable Reneco, de nuestra base de datos no
+9:119 minutos y 11 segundosestén no esté preparados para extraer conclusiones.
+9:159 minutos y 15 segundosY luego se plantea otra pregunta ya en el ámbito multivariante.
+9:219 minutos y 21 segundosSegunda, rentabilidad, activo, margen y resultado. Y lo que decíamos, antes de responder a esas dos preguntas, tenemos
+9:289 minutos y 28 segundosque depurar los datos, porque si no lo hacemos, nos podrían distorsionar los resultados, ¿de acuerdo? Es la parte
+9:369 minutos y 36 segundosprevia de depuración que yo os decía que no siempre se le da mucha importancia en los cursos,
+9:449 minutos y 44 segundospero que es fundamental. Eh, como hacemos siempre en estas prácticas, nosotros lo que vamos a hacer es abrir
+9:519 minutos y 51 segundosun script, irlo desarrollando y ver eh qué va cómo va respondiendo R. En esta
+9:599 minutos y 59 segundosocasión tenemos dos scripts. Me vuelvo a R. Como veis, está previo puro RS Stars y previo R Stars. Esto, ¿a qué atiende?
+10:1010 minutos y 10 segundospues atiende a que podemos hacer esta práctica desde dos puntos de vista. Con previo RS Stars, que es el que vamos a
+10:1810 minutos y 18 segundosrealizar ahora, va a haber algunas partes de código que están resumidas,
+10:2510 minutos y 25 segundos¿vale? Para no tener que estar pendiente de mucho código. ¿Qué es lo que se resume? Pues algún código fácil, pero
+10:3310 minutos y 33 segundosque ocupa mucho, pero que no tiene mayor trascendencia. Y entonces, ¿eso cómo está resumido? pues a través de unas funciones
+10:4210 minutos y 42 segundosque están dentro de un paquete que se llama MAT RSTARS. Y luego existe otro
+10:5110 minutos y 51 segundosscript, el previo puro, en el que digamos no está resumido, de manera que no utilizamos las funciones del paquete
+11:0011 minutosresumen mat restars, sino que eh en el script aparece desarrollado línea a
+11:0711 minutos y 7 segundoslínea, aparecen desarrolladas todas las instrucciones. Bueno, nosotros vamos a utilizar la versión que utiliza Mat Restars, pero si alguno de vosotros
+11:1711 minutos y 17 segundosquiere ver el desarrollo total del código sin utilizar este paquete, pues ejecuta previo, puro RSTARS y va a ver
+11:2611 minutos y 26 segundosque salen exactamente los mismos resultados. Bueno, pues lo dicho, nosotros vamos a utilizar previo RSTARS a secas, ¿de acuerdo? Ahí lo tenemos.
+11:3711 minutos y 37 segundosBien, y vamos a ir recorriéndolo.
+11:4011 minutos y 40 segundosLa primera función que tenemos aquí es esta que es para limpiar el
+11:4711 minutos y 47 segundosglobal environment, es decir, la memoria por si hemos estado trabajando en otras sesiones con con otros eh scripts del
+11:5611 minutos y 56 segundosproyecto, etcétera. Y entonces pues hay ahí elementos que nos pueden confundir.
+12:0412 minutos y 4 segundosAhora, como veis, parto de un environment, un global environment vacío. Entonces, no haría falta ejecutar esta línea, pero aún así lo voy a hacer.
+12:1612 minutos y 16 segundosMe pongo, como sabéis, en cualquier lugar de esta línea, le doy a RAM y, bueno, pues veis que la he ejecutado y
+12:2412 minutos y 24 segundossin novedad. Luego ya sabéis que tenemos que cargar los paquetes que nos hacen falta. Ojo, se podrían cargar conforme
+12:3412 minutos y 34 segundoslos vamos usando en cualquier eh parte del del script, pero una opción cómoda es cargar los que vamos a utilizar en
+12:4212 minutos y 42 segundostodo el script ya al principio y así nos descuidamos. Ya sabéis también que esto no es instalar un paquete, los paquetes
+12:4912 minutos y 49 segundosya están instalados y si no os dará un mensaje y tendréis que instalarlos. Aquí lo que hacemos es activar una serie de
+12:5712 minutos y 57 segundospaquetes que ya tenemos instalados en nuestra máquina. Activar, ¿qué quiere decir? Pues que las funciones que guardan cada uno de ellos estarán disponibles para que las podamos usar.
+13:0713 minutos y 7 segundosEntonces, recordad que un paquete se instala solo una vez y se activa eh siempre que nos haga falta para utilizar
+13:1513 minutos y 15 segundossus funciones. Bueno, pues aquí hay varios paquetes, los podemos señalar.
+13:2013 minutos y 20 segundosHacemos run y ya está. Da algún mensaje de que
+13:2813 minutos y 28 segundosalgunos paquetes tienen funciones que se llaman igual y entonces hay que tener precaución por si se equivoca de
+13:3513 minutos y 35 segundosfunción. Eh, y ahora viene ese paquete especial que os decía, tenemos que activarlo y si no lo tenemos, tenemos
+13:4313 minutos y 43 segundosque instalarlo. ¿Qué pasa? pues que el paquete Mat RS Stars no está en Cran como los demás, está en GitHub.
+13:5413 minutos y 54 segundosEntonces, como está en el repositorio de Github, si necesitamos instalarlo, eh
+14:0114 minutos y 1 segundopodemos ejecutar este código. Va va a comprobar si lo tenemos instalado y si no lo tenemos instalado, lo va a instalar.
+14:1114 minutos y 11 segundos¿Dónde está alojado ese paquete?
+14:1414 minutos y 14 segundosPues aquí en TEL 71/matr ejecutar ese código hasta la línea 57.
+14:2714 minutos y 27 segundosNo ha hecho nada. ¿Por qué? Pues porque ya lo tengo yo instalado en mi máquina. Lo que sí tengo que hacer es activarlo.
+14:3514 minutos y 35 segundosEntonces, para activarlo, como cualquier otro paquete, se pone library y entre paréntesis el nombre del paquete. Ya está activado y ya podemos usar sus
+14:4414 minutos y 44 segundosfunciones, que como os digo, son unas funciones que simplemente csulan código, pero no son nada especiales. Vamos a importar los datos.
+14:5614 minutos y 56 segundosPara ello tenemos este trocito de código que empieza en la línea 61. Entonces
+15:0215 minutos y 2 segundosvamos a utilizar la función React Excel, que es una función del paquete
+15:1115 minutos y 11 segundosReact XL. ¿De acuerdo? Entonces, como hemos activado React XL, pues podemos leer un Excel con React Excel. Eh, ¿qué
+15:2015 minutos y 20 segundosargumentos tiene esta función? Pues ya sabéis, el nombre del Excel.
+15:2515 minutos y 25 segundosEl Excel tiene que estar en nuestra carpeta de proyecto, ¿vale? Luego hay un
+15:3315 minutos y 33 segundosargumento sheet donde tenemos que poner la hoja dentro de Excel donde están los datos. Vamos a irnos por fuera un
+15:4215 minutos y 42 segundosmomento y vamos a abrir el Excel. ¿De acuerdo? Fijaos, tiene tres hojas. una
+15:4915 minutos y 49 segundoshoja que se llama inicio, otra que se llama variables, que es un poco el diccionario de lo que es cada variable y la que nos interesa, que es datos. En el
+15:5815 minutos y 58 segundosque están los datos, eh, una serie de variables por columnas. Esto que veis aquí no es nada raro, es que no cabe el
+16:0516 minutos y 5 segundosnúmero entero. Ya sabéis que lo pone así. Si lo ensanchamos un poquito, pues ya se ve. ¿Vale? Bueno, y por filas,
+16:1416 minutos y 14 segundosdesde la fila dos tenemos el nombre de los casos.
+16:1916 minutos y 19 segundosLos casos, ¿qué son? Pues son distintas empresas del del transporte de mercancías
+16:2716 minutos y 27 segundosinterestelar. En concreto, hay 104 empresas, por lo tanto llega a la fila 105 porque la primera fila no tiene
+16:3516 minutos y 35 segundosningún caso, sino que es el nombre de las variables. ¿Vale? Esto es lo que queremos importar. Bien, vuelvo a R para
+16:4216 minutos y 42 segundosuna cosa. Hay un argumento más que pone NA = C. Y aquí tenemos que poner, esto
+16:4916 minutos y 49 segundoses para abrir una lista con eh lo que pone o lo que puede poner
+16:5716 minutos y 57 segundosen las celdas en las que no haya dato, las que sean na. Si las celdas sin dato
+17:0417 minutos y 4 segundosen el Excel estuvieran vacías, pues no haría falta este argumento. Pero algunas veces una
+17:1317 minutos y 13 segundoscelda sin dato no está vacía, sino que pone alguna inscripción indicando que no hay dato. ¿Vale?
+17:2017 minutos y 20 segundosPor ejemplo, mirad, aquí hay una celda vacía, entonces sin problema, esto no habría
+17:2717 minutos y 27 segundosque hacer nada especial y lo trataría como sin dato. Aquí hay otra, pero de vez en cuando, fijaos lo que pone. Aquí
+17:3617 minutos y 36 segundosno hay dato, pero en lugar de estar la celda vacía, pone n punto de punto, no dato, ¿no? Bueno, pues estas etiquetas
+17:4617 minutos y 46 segundospara las celdas donde no hay dato es lo que hay que poner en ese argumento de la función Reat Excel. Hay que poner n
+17:5417 minutos y 54 segundospunto de punto. ¿Por qué? Porque si no, cuando importemos
+18:0218 minutos y 2 segundosy se encuentre R con un una celda con esta etiqueta en el punto de punto, se va a creer que es un dato especial y
+18:1018 minutos y 10 segundosentonces va a convertir toda la variable en una variable tipo carácter en lugar de numérica. Entonces, lo que tenemos que hacer es decirle, "No, cuando te
+18:1818 minutos y 18 segundosencuentres esto es que no hay dato simplemente." Pero la columna está claro que en este caso es numérica. Bueno, cierro esto ya.
+18:2818 minutos y 28 segundosNo guardo ningún cambio y doy a room.
+18:3418 minutos y 34 segundosVale, fijaos como en el environment, en el global environment ya hay un objeto que es un geto data frame.
+18:4418 minutos y 44 segundos¿Qué nombre tiene? Interestelar 100.
+18:4618 minutos y 46 segundos¿Por qué? Porque le hemos dicho que lo que importara lo guardara en un data frame que se llama interestelar 100.
+18:5318 minutos y 53 segundosHicimos una asignación.
+18:5518 minutos y 55 segundosYa sabéis que cuando asignamos es como darle un nombre a lo que ejecutemos, ¿vale? La asignación es esta flechita, el menor y el guion.
+19:0719 minutos y 7 segundos¿Y por qué le damos un nombre? O ¿para qué le damos un nombre? Para que se pueda guardar como un objeto en en el environment, en este caso, un data
+19:1519 minutos y 15 segundosframe. Eh, podemos ver el data frame, ya lo sabéis. Podemos hacer así y lo vemos.
+19:2319 minutos y 23 segundosY aquí estarían todos los datos, ¿vale?, que había en la hoja de cálculo.
+19:3119 minutos y 31 segundosTiene que llegar a, como veis, 104 empresas. Recordad que en el Excel eran 105 filas porque ocupaba una fila en nombre de las variables. ¿De acuerdo?
+19:4219 minutos y 42 segundosHay un pequeño detalle que vamos a corregir y es que si os fijáis en el data frame, los casos se llaman 1 2 3 4 5 etcétera.
+19:5519 minutos y 55 segundos¿Por qué? Pues porque el nombre de los casos, el nombre de las empresas lo ha tomado como una columna variable
+20:0320 minutos y 3 segundoscualitativa, ¿vale? La columna o la variable nombre.
+20:0920 minutos y 9 segundosBien, se podría dejar y trabajar, pero yo tengo la costumbre de el nombre de los casos no tenerlos como una variable
+20:1620 minutos y 16 segundosmás, sino que ponerlos como efectivamente nombre de las filas. ¿De acuerdo? Entonces, ¿cómo podemos eh hacer eso rápidamente?
+20:2520 minutos y 25 segundosPues le decimos que nuestro data frame interstellar 100 es el mismo data frame interestelar 100,
+20:3320 minutos y 33 segundospero el nombre de las filas es la primera columna. Vale, vamos a ejecutarlo.
+20:4320 minutos y 43 segundosRoom. Y ahí lo tenemos.
+20:4820 minutos y 48 segundosVamos a visualizar ahora nuestro data frame. Como ya le dimos, está aquí. Y mirad, parece que no ha cambiado nada,
+20:5520 minutos y 55 segundospero sí ya no existe la variable nombre de de la empresa, sino que esa variable
+21:0421 minutos y 4 segundosse se ha ido a la izquierda y se ha puesto en gris, porque ahora cada elemento de esa columna ya no es un
+21:1121 minutos y 11 segundoselemento de una variable, sino que es el nombre de cada una de las columnas. Las columnas, en lugar de llamarse 1 2 3,
+21:1821 minutos y 18 segundosetcétera, ahora toman el nombre de la empresa correspondiente, Imperion Star,
+21:2421 minutos y 24 segundoseh, Juvian Logistic, Sandworm Freight, etcétera. ¿Vale?
+21:3121 minutos y 31 segundosFijaos que ahora tenemos en lugar de 29 variables que teníamos antes, 28. ¿Por qué? Porque la variable nombre ya no es
+21:3921 minutos y 39 segundosvariable, se ha restado, ahora es el nombre de las filas. ¿Vale?
+21:4421 minutos y 44 segundosBueno, tened en cuenta eso para luego no no confundirnos.
+21:4921 minutos y 49 segundosBien, vamos a visualizar ahora las variables
+21:5521 minutos y 55 segundospara para hacerlo de un modo rápido. Ya sabéis que podríamos hacer simplemente
+22:0322 minutos y 3 segundosun sumarí.
+22:0722 minutos y 7 segundosLo pongo en la consola sumarí y entre paréntesis interestelar 100, ¿no?
+22:1822 minutos y 18 segundosdaríamos enter y ya sií nos da información en la consola sobre las 28
+22:2722 minutos y 27 segundosvariables, si son de tipo carácter o cualitativas, si son numéricas nos dan algunos estadísticos, nos dice incluso si alguna tiene no dato. ¿De acuerdo?
+22:4122 minutos y 41 segundosEh, bien, eh, es muy útil el sumari.
+22:4422 minutos y 44 segundosNosotros de todos modos lo vamos a hacer de un modo que en un informe, por ejemplo, queda un poco más elegante, ¿vale? Es con la función
+22:5422 minutos y 54 segundosGT- BP PLT- B sumari, que es del del paquete eh GT Extras, ¿vale?
+23:0623 minutos y 6 segundosBueno, es una función de ese paquete.
+23:0923 minutos y 9 segundosEh, esa lista que nos va a dar la vamos a guardar como un objeto en el global environment, por lo cual lo tenemos que
+23:1623 minutos y 16 segundosasignar a un nombre que va a ser datos de f graph, por ejemplo, el que el nombre que queramos. Si ejecutamos eso,
+23:2523 minutos y 25 segundosfijaos que ha aparecido aquí otro elemento que dice que es una gran tabla GT de tipo GT. ¿Vale? Bien, si queremos
+23:3323 minutos y 33 segundosverla, pues simplemente ponemos el nombre con el que se ha guardado esta tabla y ejecutamos.
+23:4223 minutos y 42 segundos¿Y dónde lo podemos ver esta tabla? Pues en el visor, porque aunque parezca un
+23:4723 minutos y 47 segundosgráfico, es una tabla, ¿vale? Es una tabla con elementos gráficos, pero es una tabla.
+23:5623 minutos y 56 segundosEntonces, fijaos que sale cada variable y entonces las que son de tipo cualitativo sale como una barra y te dice las categorías o elementos
+24:0524 minutos y 5 segundosdiferentes que pueden salir. Por ejemplo, la sede, pues hay 29.
+24:1124 minutos y 11 segundosEn las variables métricas nos sale un pequeño histograma.
+24:1724 minutos y 17 segundosnos sale también en cualquier variable el número de el porcentaje de missing values, por ejemplo, en activo, pues hay un 1%.
+24:2724 minutos y 27 segundosEh, la media, la mediana, la desviación típica, ¿vale?
+24:3324 minutos y 33 segundosEntonces es un método elegante de eh de comprobar que todo está en orden.
+24:4324 minutos y 43 segundosBueno, eh así podemos eh ver un poco las variables
+24:5024 minutos y 50 segundosque tenemos. El siguiente paso, vamos a a empezar ya una vez importados los
+24:5724 minutos y 57 segundosdatos, dar una respuesta a la primera pregunta que nos hacía maracullá acerca de estudiar la rentabilidad, que es la variable reneco, la rentabilidad
+25:0625 minutos y 6 segundoseconómica. Una sola variable. Bueno, pues antes de estudiarla de modo descriptivo con algunos estadísticos y
+25:1425 minutos y 14 segundosalgunos gráficos, tenemos que depurar esa variable si hace falta. ¿Qué os aconsejo? preservar
+25:2225 minutos y 22 segundosel data frame original y hacer una copia para trabajar con ella. Eso es lo que hacemos aquí. Le decimos que vamos a
+25:3025 minutos y 30 segundoscrear un data frame muestra, que es una copia del data frame original interestelar 100. Vale, ejecutamos esta línea de código y ya tenemos muestra.
+25:4325 minutos y 43 segundosMuestra es una copia exacta de interestelar 100. Hasta aquí vamos a dejar eh la primera parte de la
+25:5225 minutos y 52 segundospráctica, el primer vídeo y os espero en la segunda parte. Venga, hasta ahora.
+26:0826 minutos y 8 segundosPaparruchas.
+
